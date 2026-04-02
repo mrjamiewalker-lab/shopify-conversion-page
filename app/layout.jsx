@@ -1,3 +1,4 @@
+import "./globals.css";
 export const metadata = {
   title: "Shopify Conversion Help",
   description: "Fast conversion-focused product page audits and fixes for Shopify stores.",
