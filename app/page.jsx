@@ -7,14 +7,26 @@ export default function ShopifyConversionOfferPage() {
             <div className="inline-flex items-center rounded-full border border-slate-200 px-3 py-1 text-sm font-medium text-slate-600">
               24-hour turnaround • Built for small Shopify stores
             </div>
+
             <h1 className="mt-5 text-4xl font-bold tracking-tight md:text-5xl">
-              Your store is getting visitors.
-              <span className="block">They’re just not buying.</span>
+              You’re getting traffic.
+              <span className="block">You’re just not converting it.</span>
             </h1>
+
             <p className="mt-5 max-w-xl text-lg leading-8 text-slate-600">
-              I help Shopify stores fix weak product pages with simple, high-impact conversion improvements.
-              No fluff. No long retainers. Just fast changes that make it easier for customers to buy.
+              I fix Shopify product pages so more visitors actually buy — in as little as 24 hours.
             </p>
+
+            <p className="mt-4 text-sm text-slate-500">
+              Used by small Shopify brands to turn traffic into sales. Focused on fast, practical conversion fixes — not theory.
+            </p>
+
+            <div className="mt-6 space-y-1 text-sm text-slate-600">
+              <p>✅ Most fixes done in 24 hours</p>
+              <p>✅ Designed to increase conversion rate</p>
+              <p>✅ No long-term contracts</p>
+            </div>
+
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <a
                 href="#pricing"
@@ -29,17 +41,6 @@ export default function ShopifyConversionOfferPage() {
                 Get your page reviewed
               </a>
             </div>
-            <div className="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-3">
-              {[
-                "Fast turnaround",
-                "No tech jargon",
-                "Built for sales",
-              ].map((item) => (
-                <div key={item} className="rounded-2xl bg-slate-50 px-4 py-3 text-sm font-medium text-slate-700">
-                  {item}
-                </div>
-              ))}
-            </div>
           </div>
 
           <div className="rounded-[2rem] border border-slate-200 bg-slate-50 p-6 shadow-sm">
@@ -47,11 +48,11 @@ export default function ShopifyConversionOfferPage() {
               <p className="text-sm font-semibold uppercase tracking-wide text-slate-500">What I fix</p>
               <div className="mt-4 space-y-3">
                 {[
-                  "Weak product page structure",
-                  "No urgency or buying momentum",
-                  "Confusing copy that slows decisions",
-                  "Low-trust layouts on mobile",
-                  "Missed conversion opportunities above the fold",
+                  "Visitors leave without buying",
+                  "No urgency to take action",
+                  "Confusing product pages",
+                  "Weak mobile experience",
+                  "Missed sales from small mistakes",
                 ].map((item) => (
                   <div key={item} className="flex items-start gap-3 rounded-2xl border border-slate-200 bg-white px-4 py-3">
                     <div className="mt-1 h-2.5 w-2.5 rounded-full bg-slate-900" />
@@ -59,6 +60,7 @@ export default function ShopifyConversionOfferPage() {
                   </div>
                 ))}
               </div>
+
               <div className="mt-5 rounded-2xl bg-slate-900 px-4 py-4 text-white">
                 <p className="text-sm font-semibold">Best fit for:</p>
                 <p className="mt-1 text-sm text-slate-200">
@@ -101,7 +103,7 @@ export default function ShopifyConversionOfferPage() {
           <p className="text-sm font-semibold uppercase tracking-wide text-slate-500">Simple offers</p>
           <h2 className="mt-3 text-3xl font-bold tracking-tight md:text-4xl">Start small. Upgrade only if it makes sense.</h2>
           <p className="mt-4 text-lg text-slate-600">
-            The goal is quick wins, not locking you into a big project.
+            Most stores don’t need more traffic — they need a page that converts.
           </p>
         </div>
 
@@ -110,13 +112,8 @@ export default function ShopifyConversionOfferPage() {
             <p className="text-lg font-semibold">Product Page Audit</p>
             <p className="mt-2 text-4xl font-bold">$49</p>
             <p className="mt-4 text-sm leading-6 text-slate-600">
-              A clear review of your page with the biggest conversion issues and what to change first.
+              Find out exactly what’s hurting your conversions — and what to fix first. Delivered fast. No fluff.
             </p>
-            <ul className="mt-6 space-y-3 text-sm text-slate-700">
-              <li>• Fast review</li>
-              <li>• Clear written feedback</li>
-              <li>• Best for stores needing direction</li>
-            </ul>
             <a href="#contact" className="mt-8 inline-flex rounded-2xl border border-slate-300 px-5 py-3 text-sm font-semibold hover:bg-slate-50">
               Book an audit
             </a>
@@ -129,12 +126,12 @@ export default function ShopifyConversionOfferPage() {
             <p className="mt-4 text-lg font-semibold">Audit + Fix</p>
             <p className="mt-2 text-4xl font-bold">$149</p>
             <p className="mt-4 text-sm leading-6 text-slate-200">
-              I review your product page and make the highest-impact changes for you.
+              I review your page and fix the highest-impact issues for you. This is the fastest way to improve conversions without guessing.
             </p>
             <ul className="mt-6 space-y-3 text-sm text-slate-100">
-              <li>• Includes audit</li>
-              <li>• Copy + conversion improvements</li>
-              <li>• 24-hour turnaround target</li>
+              <li>✔ 24-hour turnaround</li>
+              <li>✔ Copy + structure improvements</li>
+              <li>✔ Built to increase conversions</li>
             </ul>
             <a href="#contact" className="mt-8 inline-flex rounded-2xl bg-white px-5 py-3 text-sm font-semibold text-slate-900 hover:opacity-90">
               Get the full fix
@@ -145,13 +142,8 @@ export default function ShopifyConversionOfferPage() {
             <p className="text-lg font-semibold">Add-On: 3 Short Videos</p>
             <p className="mt-2 text-4xl font-bold">$79</p>
             <p className="mt-4 text-sm leading-6 text-slate-600">
-              Three simple short-form video concepts designed to help your product get clicks and attention.
+              3 short-form video concepts designed to help your product get attention and clicks.
             </p>
-            <ul className="mt-6 space-y-3 text-sm text-slate-700">
-              <li>• Hooks included</li>
-              <li>• Fast-turnaround content ideas</li>
-              <li>• Great add-on for paid traffic stores</li>
-            </ul>
             <a href="#contact" className="mt-8 inline-flex rounded-2xl border border-slate-300 px-5 py-3 text-sm font-semibold hover:bg-slate-50">
               Add videos
             </a>
@@ -164,11 +156,14 @@ export default function ShopifyConversionOfferPage() {
           <div className="grid gap-8 md:grid-cols-2 md:items-start">
             <div>
               <p className="text-sm font-semibold uppercase tracking-wide text-slate-500">Why this works</p>
-              <h2 className="mt-3 text-3xl font-bold tracking-tight">Most stores do not need more traffic first.</h2>
+              <h2 className="mt-3 text-3xl font-bold tracking-tight">
+                Most stores do not need more traffic first.
+              </h2>
               <p className="mt-4 text-lg leading-8 text-slate-600">
                 They need a product page that creates trust, clarity, and momentum. That is where quick conversion wins usually come from.
               </p>
             </div>
+
             <div className="grid gap-4">
               {[
                 "Clearer messaging",
@@ -191,18 +186,24 @@ export default function ShopifyConversionOfferPage() {
             <div>
               <p className="text-sm font-semibold uppercase tracking-wide text-slate-300">Get started</p>
               <h2 className="mt-3 text-3xl font-bold tracking-tight md:text-4xl">
-                Send your product page link.
+                Get your product page reviewed today.
                 <span className="block">I’ll tell you the best next step.</span>
               </h2>
               <p className="mt-4 max-w-xl text-base leading-7 text-slate-300">
-                No long call needed. Just send your Shopify product page and I’ll let you know whether you need an audit, a fix, or both.
+                Send your Shopify product page and I’ll tell you exactly what’s hurting conversions — and what to fix next.
+              </p>
+
+              <p className="mt-4 text-sm text-slate-400">
+                Limited spots — I only take a few stores per day.
               </p>
             </div>
+
             <div className="rounded-[1.5rem] bg-white p-6 text-slate-900 shadow-sm">
               <p className="text-lg font-semibold">Message template</p>
               <div className="mt-4 rounded-2xl bg-slate-50 p-4 text-sm leading-6 text-slate-700">
-                Hey — here’s my product page: [link]. I’d like help improving conversions. What would you recommend?
+                Hey — here’s my product page: [link]. Can you tell me what’s hurting my conversions and what I should fix first?
               </div>
+
               <div className="mt-5 grid gap-3 sm:grid-cols-2">
                 <a
                   href="mailto:mr.jamie.walker@gmail.com?subject=Shopify%20Product%20Page%20Help"
@@ -210,6 +211,7 @@ export default function ShopifyConversionOfferPage() {
                 >
                   Email me
                 </a>
+
                 <a
                   href="https://www.instagram.com/boostle.app/"
                   className="rounded-2xl border border-slate-300 px-5 py-3 text-center text-sm font-semibold text-slate-900 hover:bg-slate-50"
