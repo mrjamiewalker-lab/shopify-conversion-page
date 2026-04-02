@@ -205,13 +205,13 @@ export default function ShopifyConversionOfferPage() {
               </div>
               <div className="mt-5 grid gap-3 sm:grid-cols-2">
                 <a
-                  href="mailto:you@example.com?subject=Shopify%20Product%20Page%20Help"
+                  href="mailto:mr.jamie.walker@gmail.com?subject=Shopify%20Product%20Page%20Help"
                   className="rounded-2xl bg-slate-900 px-5 py-3 text-center text-sm font-semibold text-white hover:opacity-90"
                 >
                   Email me
                 </a>
                 <a
-                  href="https://instagram.com/yourhandle"
+                  href="https://www.instagram.com/boostle.app/"
                   className="rounded-2xl border border-slate-300 px-5 py-3 text-center text-sm font-semibold text-slate-900 hover:bg-slate-50"
                 >
                   DM on Instagram
