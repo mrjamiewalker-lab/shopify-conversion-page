@@ -31,9 +31,9 @@ export default function ShopifyConversionOfferPage() {
             </div>
             <div className="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-3">
               {[
-                'Fast turnaround',
-                'No tech jargon',
-                'Built for sales',
+                "Fast turnaround",
+                "No tech jargon",
+                "Built for sales",
               ].map((item) => (
                 <div key={item} className="rounded-2xl bg-slate-50 px-4 py-3 text-sm font-medium text-slate-700">
                   {item}
@@ -47,11 +47,11 @@ export default function ShopifyConversionOfferPage() {
               <p className="text-sm font-semibold uppercase tracking-wide text-slate-500">What I fix</p>
               <div className="mt-4 space-y-3">
                 {[
-                  'Weak product page structure',
-                  'No urgency or buying momentum',
-                  'Confusing copy that slows decisions',
-                  'Low-trust layouts on mobile',
-                  'Missed conversion opportunities above the fold',
+                  "Weak product page structure",
+                  "No urgency or buying momentum",
+                  "Confusing copy that slows decisions",
+                  "Low-trust layouts on mobile",
+                  "Missed conversion opportunities above the fold",
                 ].map((item) => (
                   <div key={item} className="flex items-start gap-3 rounded-2xl border border-slate-200 bg-white px-4 py-3">
                     <div className="mt-1 h-2.5 w-2.5 rounded-full bg-slate-900" />
@@ -75,16 +75,16 @@ export default function ShopifyConversionOfferPage() {
           <div className="grid gap-6 md:grid-cols-3">
             {[
               {
-                title: 'Step 1',
-                text: 'I review your product page and find the biggest leaks hurting conversions.',
+                title: "Step 1",
+                text: "I review your product page and find the biggest leaks hurting conversions.",
               },
               {
-                title: 'Step 2',
-                text: 'You get a simple action plan or I fix the page for you directly.',
+                title: "Step 2",
+                text: "You get a simple action plan or I fix the page for you directly.",
               },
               {
-                title: 'Step 3',
-                text: 'Your store becomes easier to trust, easier to understand, and easier to buy from.',
+                title: "Step 3",
+                text: "Your store becomes easier to trust, easier to understand, and easier to buy from.",
               },
             ].map((item) => (
               <div key={item.title} className="rounded-[1.5rem] bg-white p-6 shadow-sm ring-1 ring-slate-100">
@@ -171,10 +171,10 @@ export default function ShopifyConversionOfferPage() {
             </div>
             <div className="grid gap-4">
               {[
-                'Clearer messaging',
-                'Stronger buying cues',
-                'Better mobile experience',
-                'Faster path to checkout',
+                "Clearer messaging",
+                "Stronger buying cues",
+                "Better mobile experience",
+                "Faster path to checkout",
               ].map((item) => (
                 <div key={item} className="rounded-[1.5rem] bg-white px-5 py-4 shadow-sm ring-1 ring-slate-100">
                   <p className="font-medium text-slate-800">{item}</p>
